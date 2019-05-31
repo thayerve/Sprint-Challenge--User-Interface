@@ -118,6 +118,14 @@ div .top-content .text-container {
     padding: 0 1%;
     padding-bottom: 20px;  
     text-align: left;
+    margin: 10px 0;
+}
+
+.about-page .top-content .text-container {
+    width: 100%;
+    padding: 1% 1%;
+    padding-bottom: 20px;  
+    text-align: left;
 }
 
 /* middle content styles */
@@ -127,7 +135,7 @@ div .top-content .text-container {
     border-bottom: 1px dashed black;
 }
 
-.middle-content .about-page {
+.about-page .middle-content {
 display: flex;
 flex-flow: row wrap;
 justify-content: space-evenly;
@@ -135,8 +143,11 @@ justify-content: space-evenly;
 
 .middle-content .card {
     width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px; 
+}
+
+.card .img {
+    margin-bottom: 4px;
 }
 
 .middle-content .card button {
@@ -148,10 +159,8 @@ justify-content: space-evenly;
     border: 1px solid black;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
+
+/* home boxes styles */ 
 
 .middle-content .boxes {
     display: flex;
@@ -269,6 +278,8 @@ justify-content: space-evenly;
     justify-content: center;
 }
 
+/* bottom content styles */ 
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -282,6 +293,8 @@ justify-content: space-evenly;
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* footer styles */ 
 
 footer {
     width: 100%;
