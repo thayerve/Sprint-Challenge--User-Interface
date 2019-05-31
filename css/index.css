@@ -113,15 +113,39 @@ header nav a:hover {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
+div .top-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+    text-align: left;
+}
+
+/* middle content styles */
+
+.middle-content {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content .about-page {
+display: flex;
+flex-flow: row wrap;
+justify-content: space-evenly;
+}
+
+.middle-content .card {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+.middle-content .card button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
 }
 
 .middle-content h2 {
